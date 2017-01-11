@@ -1,0 +1,7 @@
+#!/usr/bin/ruby
+require_relative './01_rally_defect_count.rb'
+
+v1defects = DefectCount.new
+current_defects = v1defects.get_defect_list
+puts "#{current_defects}"
+
